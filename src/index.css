@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: "Maitree", serif;
+  text-align: center;
+  color: #43a047;
+}
+
+h1 { 
+  margin-bottom: 0;
+}
+
+
+/* Navbar */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  background: #43a047;
+  padding: 15px;
+  font-size: larger;
+  color: white;
+}
+
+/* gallery */
+.gallery {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.gallery .card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 10px;
+  width: 300px;
+  height: 250px;
+}
+
+.gallery .nombre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.315); 
+
+}
+
+.gallery .like{
+  display: flex;
+  justify-content: end;
+  
+}
+
+.favoritas{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.favoritas img{
+  width: 310px;
+  height: 270px;
+  object-fit: cover;
+}
